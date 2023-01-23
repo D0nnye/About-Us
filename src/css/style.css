@@ -21,31 +21,6 @@
 }
 
 
-/* Fotos de tamanhos diferentes (REVISAR) */
-.imgs{
-    background-color: rgb(255, 255, 255);
-}
-.homeimg {
-    --gap: 16px;
-    --num-cols: 3;
-    --row-height: 200px;
-    box-sizing: border-box;
-    padding: var(--gap);
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
-}
-
-.homeimg>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-  
-.img-row {
-    grid-row: span 2;
-}
 
 /* Título e Sub-título B */
 .TSB {
