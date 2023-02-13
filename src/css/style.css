@@ -4,7 +4,7 @@
 /* Título e Sub-título A */
 .TSA {
     text-align: center;
-  }
+}
 
 .title-A {
     font-size: 15px;
@@ -18,6 +18,8 @@
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
+    padding-left: 330px;
+    padding-right: 330px;
 }
 
 
@@ -25,13 +27,6 @@
 /* Título e Sub-título B */
 .TSB {
     text-align: center;
-  }
-
-.title-B {
-    font-size: 15px;
-    padding-top: 80px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
 
 .subtitle-B {
@@ -42,30 +37,30 @@
 }
 
 /* Imagem central */
-#middleimg {
-    display: flex;
-    justify-content: center;
+#middleimg img {
+    width: 400px;
+    height: 350px;
+    margin-right: 270px;
+    border-radius: 1%;
+    padding-top: 10px;
+    padding-left: 1%
 }
 
-/* Texto-História */
+/* Texto-Históri
+,a */
 .UTA {
-    text-align: center;
+    display: flex;
 }
-.under {
-    color: darkgray;
-    margin-bottom: 40px;
-    margin-top: 25px;
-}
+
 .T1 {
-    text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+    text-align: justify;
     line-height: 170%;
-    padding-bottom: 50px;
-}  
+    padding-left: 270px;
+    padding-right: 10px;
+}
 
 /* Default Config */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,33 +80,35 @@ body {
 
 
 /* Card valores */
-.container{
+.container {
     width: 1100px;
     max-width: 100%;
     margin: 0 auto;
+    text-align: justify;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
-    padding-left:120px;
+    padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 60px;
 }
 
-.cardv{
+.cardv {
     flex-wrap: wrap;
-    flex:  1 1 21rem;
+    flex: 1 1 21rem;
     margin: 10px 20px;
     background: #efefef;
     box-shadow: 0 0 15px rgb(184, 182, 182);
-    padding: 10px 20px;;
+    padding: 10px 20px;
     align-self: normal;
 
 }
-.cardv h4{
+
+.cardv h4 {
     font-size: 1.3rem;
     text-transform: uppercase;
     margin: 10px 0;
@@ -119,21 +116,21 @@ body {
     justify-content: center;
 }
 
-.cardv p{
+.cardv p {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.cardv-geral{
+.cardv-geral {
     background-color: rgb(194, 243, 214);
 }
 
 /* Título e Sub-título C */
 .TSC {
     text-align: center;
-  }
+}
 
 .title-C {
     font-size: 15px;
@@ -150,7 +147,7 @@ body {
 /* Título e Sub-título D */
 .TSD {
     text-align: center;
-  }
+}
 
 .title-D {
     font-size: 15px;
@@ -281,4 +278,11 @@ body {
 .container2 .card .sci li a {
     color: rgb(0, 0, 0);
     font-size: 24PX;
+}
+.teste{
+    text-align: justify;
+    margin-left: 19%;
+    width: 885px;
+    line-height: 170%;
+    margin-bottom: 5%;
 }
